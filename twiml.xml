@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Play>http://dial-a-dog.com/assets/audio/dogs.mp3</Play>
+    <Play loop="0">http://dial-a-dog.com/assets/audio/dogs.mp3</Play>
 </Response>
-
