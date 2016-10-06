@@ -5,13 +5,25 @@
     <style type="text/css">
       @import 'https://fonts.googleapis.com/css?family=Yellowtail';
 
+      @keyframes blinker {
+        50% { opacity: 0; }
+      }
+
       h1 {
           text-align: center;
           font-family: 'Yellowtail', cursive;
+          position: relative;
+          z-index: 5;
       }
 
       .phone {
           font-size: 48px;
+      }
+
+      .yes {
+          text-decoration: blink;
+          animation: blinker 1s linear infinite;
+          opacity: 1;
       }
 
       img {
@@ -29,7 +41,7 @@
     <h1 class="phone">
       +1 (256) 841-7049
     </h1>
-    <h1>
+    <h1 class="yes">
       DOGS ARE STANDING BY
     </h1>
     <img src="/assets/images/lab-on-phone.jpg" />
